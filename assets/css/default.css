@@ -90,7 +90,11 @@
 
 @media only screen and (max-width: 600px) { 
 	.header-content {
-		height: 680px !important;
+		height: 550px !important;
+	}
+	
+	.header-social .header-social-icon::before {	
+		left: 15px !important;
 	}
 	
 	.navigation {	
@@ -144,9 +148,9 @@
 }
 
 .header-social .header-social-icon ul li a:hover {
-    color: #BD5585 !important;
+    color: #000 !important;
     background-color: #ffdd03 !important;
-    border-color: #53C0B2  !important;
+    border-color: #000  !important;
 }
 
 .header-social .header-social-icon i {
@@ -164,9 +168,9 @@
 }
 
 .footer-content ul li a:hover {
-    color: #BD5585 !important;
+    color: #000 !important;
     background-color: #ffdd03 !important;
-    border-color: #ffdd03 !important;
+    border-color: #000 !important;
 }
 
 .img-left {
@@ -193,8 +197,8 @@
 		left: 25px !important;
 		position: absolute !important; 
 		display: -webkit-box !important;
-		height: 300px;
-		width: 300px;
+		height: 100px;
+		width: 100px;
 	}
 
 	.img-right {
@@ -202,8 +206,8 @@
 		right: 25px !important;
 		position: absolute !important; 
 		display: -webkit-box !important;
-		height: 300px;
-		width: 300px;
+		height: 100px;
+		width: 100px;
 	}
 }
 
